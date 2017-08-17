@@ -1,7 +1,13 @@
-# kanban-app
+# Kanban
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+[EmberCast Kanban App](https://www.embercasts.com/free-video)
+
+A simple Kanban application for use as a demo project.
+
+### Uses
+* Use as a demo
+* Extend the functionality
+* Just for fun
 
 ## Prerequisites
 
@@ -9,14 +15,16 @@ You will need the following things properly installed on your computer.
 
 * [Git](https://git-scm.com/)
 * [Node.js](https://nodejs.org/) (with NPM)
+* [Yarn](https://yarnpkg.com/en/)
 * [Ember CLI](https://ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* Fork the repo
+* `git clone git@github.com:<fork-name>/kanban-app.git` this repository
 * `cd kanban-app`
-* `npm install`
+* `yarn`
 
 ## Running / Development
 
@@ -39,7 +47,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+TODO
 
 ## Further Reading / Useful Links
 
