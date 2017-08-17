@@ -1,0 +1,18 @@
+<div class="board">
+  {{#each-in (group-by "list" model) as |list cards|}}
+    {{#cards-list list=list
+                  dropped=(action "updateCard" list)}}
+      <li class="list-header">{{list}}</li>
+
+      {{#each cards as |card|}}
+        {{list-card card=card}}
+      {{/each}}
+
+      {{new-card-form class="list-footer" list=list onsubmit=(action "saveCard")}}
+    {{/cards-list}}
+  {{/each-in}}
+
+  {{new-list-form class="list-form" onsubmit=(action "saveCard")}}
+</div>
+
+{{outlet}}

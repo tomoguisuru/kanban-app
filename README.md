@@ -14,10 +14,10 @@ A simple Kanban application for use as a demo project.
 You will need the following things properly installed on your computer.
 
 * [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with NPM)
-* [Yarn](https://yarnpkg.com/en/)
+* [Node.js](https://nodejs.org/)
+* [Yarn](https://yarnpkg.com/)
 * [Ember CLI](https://ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+* [Google Chrome](https://google.com/chrome/)
 
 ## Installation
 
