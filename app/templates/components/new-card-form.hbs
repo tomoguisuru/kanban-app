@@ -1,0 +1,13 @@
+{{#if showForm}}
+  <form onsubmit={{action "save"}}>
+    {{input class="form-control" placeholder="New Card Title" value=title autofocus=true}}
+
+    <button class="fullwidth btn btn-save" type="submit">Save</button>
+  </form>
+{{else}}
+  <button class="btn btn-text" type="button" onclick={{action "toggleForm"}}>
+    <span class="fa fa-plus">
+      Add new card...
+    </span>
+  </button>
+{{/if}}
