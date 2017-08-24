@@ -8,12 +8,12 @@ let moduleConfig = buildResolverConfig(config.modulePrefix);
  * to add support for them.
  */
 
-// moduleConfig.types['drag'] = {
-//   definitiveCollection: 'dragCoordinator',
-// };
-// moduleConfig.collections['dragCoordinator'] = {
-//   types: ['drag']
-// };
+moduleConfig.types['drag'] = {
+  definitiveCollection: 'drags',
+};
+moduleConfig.collections['drags'] = {
+  types: ['drag']
+};
 
 export default Resolver.extend({
   config: moduleConfig
