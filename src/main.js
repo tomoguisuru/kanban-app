@@ -9,6 +9,10 @@ const App = Ember.Application.extend({
   Resolver
 });
 
+// Load old format
+loadInitializers(App, config.modulePrefix);
+
+// Load modules format
 loadInitializers(App, config.modulePrefix + '/src/init');
 
 export default App;
